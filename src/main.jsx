@@ -78,14 +78,35 @@ const experiences = [
     company: 'Profesional Independiente',
     period: '2021 - Presente',
     description:
-      'Desarrollo de soluciones para aplicaciones de música independiente, incluyendo páginas web en Python, reproductores de música y aplicaciones móviles.',
-    projects: [],
+      'Desarrollo de proyectos independientes orientados a productividad, entretenimiento y herramientas digitales, con foco en resolver necesidades concretas mediante aplicaciones simples y mantenibles.',
+    projects: [
+      {
+        title: 'Aplicación Linux para ajuste de brillo',
+        details:
+          'Herramienta con interfaz en Python para controlar el brillo de pantalla en entornos Linux y mejorar la experiencia de uso diario.',
+      },
+      {
+        title: 'Juegos y prototipos en Unity',
+        details:
+          'Desarrollo de juegos y prototipos interactivos versionados en GitHub, aplicando lógica de gameplay, manejo de escenas e interfaces.',
+      },
+      {
+        title: 'Extensión para Owlbear Rodeo',
+        details:
+          'Extensión para lanzar tiradas dentro de Owlbear Rodeo, ampliando el flujo de juego con una herramienta integrada a la plataforma.',
+      },
+      {
+        title: 'Aplicaciones de música independiente',
+        details:
+          'Desarrollo de páginas web en Python, reproductores de música y aplicaciones móviles para proyectos musicales independientes.',
+      },
+    ],
   },
 ];
 
 const skills = [
   { label: 'Lenguajes', items: ['Python', 'Java', 'TypeScript', 'C#', 'VB.NET'] },
-  { label: 'Frameworks', items: ['Spring Boot', 'Django', 'React', '.NET', 'Flutter'] },
+  { label: 'Frameworks', items: ['Spring Boot', 'Django', 'React', '.NET', 'Flutter', 'Unity'] },
   { label: 'Bases de datos', items: ['SQL Server', 'MongoDB', 'Oracle SQL'] },
   { label: 'Prácticas', items: ['APIs RESTful', 'Scrum', 'Integraciones SAP B1'] },
 ];

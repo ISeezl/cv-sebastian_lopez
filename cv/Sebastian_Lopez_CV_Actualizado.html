@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sebastian Lopez | CV</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      @page {
+        size: A4;
+        margin: 15mm 16mm;
+      }
+
+      body {
+        margin: 0;
+        color: #111;
+        background: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 9.7pt;
+        line-height: 1.3;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      p {
+        margin-top: 0;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .header {
+        margin-bottom: 16px;
+        text-align: left;
+      }
+
+      h1 {
+        margin-bottom: 3px;
+        font-size: 25pt;
+        font-weight: 700;
+        letter-spacing: 0;
+        line-height: 1;
+        text-transform: uppercase;
+      }
+
+      .role {
+        margin-bottom: 13px;
+        font-size: 11pt;
+        font-weight: 700;
+        letter-spacing: 0;
+        text-transform: uppercase;
+      }
+
+      .contact {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5px 24px;
+        margin: 0;
+        color: #111;
+        font-size: 9.4pt;
+        font-style: normal;
+      }
+
+      section {
+        margin-bottom: 13px;
+      }
+
+      h2 {
+        margin-bottom: 8px;
+        font-size: 11pt;
+        font-weight: 700;
+        letter-spacing: 0;
+        text-transform: uppercase;
+      }
+
+      h3 {
+        margin-bottom: 4px;
+        font-size: 10.8pt;
+        font-weight: 700;
+      }
+
+      h4 {
+        margin-bottom: 2px;
+        font-size: 10.1pt;
+        font-weight: 700;
+      }
+
+      p {
+        margin-bottom: 5px;
+      }
+
+      .summary {
+        margin-bottom: 13px;
+      }
+
+      .experience {
+        break-inside: avoid;
+        margin-bottom: 12px;
+      }
+
+      .period {
+        margin-bottom: 5px;
+        font-weight: 700;
+      }
+
+      .projects-title {
+        margin: 7px 0 4px;
+        font-size: 10pt;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+
+      .project {
+        break-inside: avoid;
+        margin-bottom: 6px;
+      }
+
+      ul {
+        padding-left: 18px;
+        margin: 3px 0 6px;
+      }
+
+      li {
+        margin-bottom: 3px;
+      }
+
+      .compact-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 36px;
+        row-gap: 4px;
+        padding-left: 18px;
+      }
+
+      .skills p {
+        margin-bottom: 7px;
+      }
+
+      .page-break {
+        break-before: auto;
+      }
+
+      @media print {
+        body {
+          print-color-adjust: exact;
+          -webkit-print-color-adjust: exact;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Sebastian Lopez</h1>
+      <p class="role">Full Stack Developer</p>
+      <address class="contact">
+        <a href="mailto:se.lopezmunoz@gmail.com">se.lopezmunoz@gmail.com</a>
+        <a href="tel:+56933367642">+56 9 3336 7642</a>
+        <a href="https://www.linkedin.com/in/selopezmu/">https://www.linkedin.com/in/selopezmu/</a>
+        <a href="https://iseezl.github.io/cv-sebastian_lopez/">https://iseezl.github.io/cv-sebastian_lopez/</a>
+      </address>
+    </header>
+
+    <section class="summary">
+      <h2>Perfil Profesional</h2>
+      <p>
+        Desarrollador full stack orientado a soluciones empresariales, banca,
+        integraciones POS, SAP B1, aplicaciones web y móviles. Experiencia en
+        React, .NET, Node.js, Flutter y bases de datos SQL/NoSQL para construir
+        productos mantenibles, seguros y conectados a procesos reales de negocio.
+      </p>
+    </section>
+
+    <section>
+      <h2>Experiencia Profesional</h2>
+
+      <article class="experience">
+        <h3>Stefanini / HSBC Bank</h3>
+        <p class="period">Enero 2026 - Presente</p>
+        <p>
+          Desarrollo full stack en proyecto de optimización para el área de finanzas
+          de HSBC Bank. Participación en la construcción de una aplicación web con
+          React y API web en C#, enfocada en mejorar procesos internos, reducir
+          fricción operativa y entregar una base técnica mantenible para evolución
+          continua.
+        </p>
+        <p class="projects-title">Proyecto más destacado</p>
+        <div class="project">
+          <h4>Aplicación web para procesos financieros</h4>
+          <p>
+            Implementación de interfaces en React y servicios backend en C# para
+            apoyar la digitalización, seguimiento y optimización de procesos del
+            área de finanzas.
+          </p>
+        </div>
+      </article>
+
+      <article class="experience">
+        <h3>Retail Custom Solution | 2021 - 2025</h3>
+        <p>
+          Desarrollo full stack de soluciones informáticas con .NET y consultoría
+          de proyectos, dirigidas a puntos de venta para clientes del sector
+          ferretero, retail y cárnico. Enfocado en mejoras continuas con
+          RMS.NET/POS.NET e integraciones con herramientas externas. Además de
+          integraciones con SAP B1 utilizando herramientas como DI API y Service Layer.
+        </p>
+        <p class="projects-title">Proyectos más destacados</p>
+        <div class="project">
+          <h4>Integración dispositivos POS de pago</h4>
+          <p>
+            Desarrollo de integración con dispositivos POS y proveedores de pago
+            como GetNet, Transbank y BCIPagos.
+          </p>
+        </div>
+        <div class="project">
+          <h4>Desarrollo mobile de administración y reportería de integración</h4>
+          <p>
+            Desarrollo de aplicación mobile utilizando Flutter, incluyendo
+            funcionalidades clave como:
+          </p>
+          <ul>
+            <li>Gestión de configuraciones necesarias para integración con SAP B1.</li>
+            <li>
+              Reporterías para el estado de documentos pendientes de integración
+              entre punto de venta y SAP.
+            </li>
+          </ul>
+        </div>
+        <div class="project">
+          <h4>API web de información de documentos</h4>
+          <p>
+            Desarrollo de API web para disponibilizar información del sistema
+            RMS/POS a proveedores externos.
+          </p>
+        </div>
+      </article>
+
+      <article class="experience">
+        <h3>Faros Asesores | 2023 - 2025</h3>
+        <p>
+          Desarrollo full stack encargado de microservicios, aplicaciones web y
+          aplicaciones móviles.
+        </p>
+        <p class="projects-title">Proyectos más destacados</p>
+        <div class="project">
+          <h4>Aplicación web gestión de RFID</h4>
+          <p>
+            Desarrollo de proyecto enfocado en toma de inventario mediante tecnología
+            RFID, utilizando Node.js, React y MongoDB. El desarrollo incluye la
+            adaptación de modelos de negocio y procesos logísticos clave como:
+          </p>
+          <ul>
+            <li>Órdenes de compra</li>
+            <li>Avisos de embarque</li>
+            <li>Packing list</li>
+            <li>Tomas de inventario</li>
+          </ul>
+        </div>
+        <div class="project">
+          <h4>Tablero control ASN</h4>
+          <p>
+            Desarrollo de tablero enfocado en la generación, seguimiento y
+            procesamiento de ASN.
+          </p>
+        </div>
+      </article>
+
+      <article class="experience">
+        <h3>Profesional Independiente</h3>
+        <p class="period">2021 - Presente</p>
+        <p>
+          Desarrollo de proyectos independientes orientados a productividad,
+          entretenimiento y herramientas digitales.
+        </p>
+        <ul>
+          <li>Aplicación Linux con interfaz en Python para ajuste de brillo de pantalla.</li>
+          <li>Juegos y prototipos en Unity versionados en GitHub.</li>
+          <li>Extensión para Owlbear Rodeo orientada al lanzamiento de tiradas.</li>
+          <li>Páginas web en Python, reproductores de música y aplicaciones móviles.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="page-break">
+      <h2>Educación</h2>
+      <p>Titulado en Analista Programador Computacional</p>
+      <p>Duoc UC (2019-2022)</p>
+    </section>
+
+    <section class="skills">
+      <h2>Habilidades Técnicas</h2>
+      <p><strong>Lenguajes de programación:</strong> Python, Java, TypeScript, C#, VB.NET</p>
+      <p><strong>Frameworks:</strong> Spring Boot, Django, React, .NET, Flutter, Unity</p>
+      <p><strong>Base de datos:</strong> SQL Server, MongoDB, Oracle SQL</p>
+      <p><strong>Otros:</strong> APIs RESTful, Scrum, Integraciones SAP B1</p>
+    </section>
+
+    <section>
+      <h2>Certificaciones</h2>
+      <p>Security Code Warrior - White Belt</p>
+      <p>Security Code Warrior - Yellow Belt</p>
+    </section>
+
+    <section>
+      <h2>Aptitudes</h2>
+      <ul class="compact-list">
+        <li>Autodidacta</li>
+        <li>Adaptabilidad tecnológica</li>
+        <li>Metódico</li>
+        <li>Aprendizaje rápido</li>
+        <li>Organizado</li>
+        <li>Resolución de problemas</li>
+        <li>Responsabilidad</li>
+      </ul>
+    </section>
+  </body>
+</html>
