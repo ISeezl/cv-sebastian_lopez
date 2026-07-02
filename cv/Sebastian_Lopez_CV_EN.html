@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sebastian Lopez | Resume</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      @page {
+        size: A4;
+        margin: 14mm 15mm;
+      }
+
+      body {
+        margin: 0;
+        color: #111;
+        background: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 9.35pt;
+        line-height: 1.25;
+      }
+
+      h1,
+      h2,
+      h3,
+      p {
+        margin-top: 0;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .header {
+        margin-bottom: 12px;
+      }
+
+      h1 {
+        margin-bottom: 3px;
+        font-size: 23pt;
+        line-height: 1;
+        text-transform: uppercase;
+      }
+
+      .role {
+        margin-bottom: 8px;
+        font-size: 10.6pt;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+
+      .contact {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 4px 20px;
+        margin: 0;
+        font-size: 9pt;
+        font-style: normal;
+      }
+
+      section {
+        margin-bottom: 9px;
+      }
+
+      h2 {
+        border-bottom: 1px solid #111;
+        margin-bottom: 6px;
+        padding-bottom: 2px;
+        font-size: 10.2pt;
+        text-transform: uppercase;
+      }
+
+      h3 {
+        margin-bottom: 2px;
+        font-size: 10.2pt;
+      }
+
+      p {
+        margin-bottom: 4px;
+      }
+
+      ul {
+        padding-left: 17px;
+        margin: 3px 0 5px;
+      }
+
+      li {
+        margin-bottom: 2px;
+      }
+
+      .experience {
+        break-inside: avoid;
+        margin-bottom: 8px;
+      }
+
+      .meta {
+        margin-bottom: 4px;
+        font-weight: 700;
+      }
+
+      .skills p {
+        margin-bottom: 4px;
+      }
+
+      .project-title {
+        margin-top: 4px;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+
+      @media print {
+        body {
+          print-color-adjust: exact;
+          -webkit-print-color-adjust: exact;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Sebastian Lopez</h1>
+      <p class="role">Full Stack Developer</p>
+      <address class="contact">
+        <a href="mailto:se.lopezmunoz@gmail.com">se.lopezmunoz@gmail.com</a>
+        <a href="tel:+56933367642">+56 9 3336 7642</a>
+        <a href="https://www.linkedin.com/in/selopezmu/">linkedin.com/in/selopezmu</a>
+        <a href="https://iseezl.github.io/cv-sebastian_lopez/">iseezl.github.io/cv-sebastian_lopez</a>
+        <span>Santiago, Chile</span>
+        <span>English level: B2</span>
+      </address>
+    </header>
+
+    <section>
+      <h2>Professional Summary</h2>
+      <p>
+        Full Stack Developer with experience building business applications for
+        banking, retail, POS integrations, SAP Business One, web platforms, and
+        mobile solutions. Skilled in React, .NET, C#, Node.js, Flutter, and
+        SQL/NoSQL databases. Daily user of AI-assisted development tools for
+        software design, code generation, debugging, refactoring, documentation,
+        and test creation. Foundational knowledge of AWS, cloud deployment
+        concepts, and CI/CD workflows with GitHub Actions.
+      </p>
+    </section>
+
+    <section class="skills">
+      <h2>Technical Skills</h2>
+      <p><strong>Languages:</strong> C#, TypeScript, Python, Java, VB.NET.</p>
+      <p><strong>Backend / Full Stack:</strong> .NET, REST APIs, Node.js, Django, Spring Boot.</p>
+      <p><strong>Frontend / Mobile:</strong> React, Flutter, Unity.</p>
+      <p><strong>Databases:</strong> SQL Server, MongoDB, Oracle SQL.</p>
+      <p><strong>AWS / Cloud:</strong> AWS fundamentals, cloud deployment concepts, EC2, IAM, S3, RDS, Lambda, API Gateway, CloudWatch, GitHub Actions.</p>
+      <p><strong>AI-assisted development:</strong> GitHub Copilot, ChatGPT, Cursor AI, Claude CLI, LLM concepts, AI agents, AI-assisted workflows.</p>
+      <p><strong>Integrations and practices:</strong> SAP Business One, DI API, Service Layer, POS systems, payment providers, Scrum, secure coding.</p>
+    </section>
+
+    <section>
+      <h2>Professional Experience</h2>
+
+      <article class="experience">
+        <h3>Stefanini / HSBC Bank</h3>
+        <p class="meta">Full Stack Developer | January 2026 - Present</p>
+        <ul>
+          <li>Develop full stack features for a finance optimization project at HSBC Bank, using React for the web interface and C# for backend web APIs.</li>
+          <li>Build and maintain application components designed to improve internal workflows, reduce operational friction, and support continuous product evolution.</li>
+          <li>Use AI-assisted development tools to accelerate technical analysis, code generation, debugging, refactoring, documentation, and test support.</li>
+          <li>Apply secure development practices, version control, and collaborative engineering standards in a banking environment.</li>
+        </ul>
+      </article>
+
+      <article class="experience">
+        <h3>Retail Custom Solution</h3>
+        <p class="meta">Full Stack Developer / Project Consultant | 2021 - 2025</p>
+        <ul>
+          <li>Developed .NET-based software solutions for POS environments serving hardware, retail, and meat industry clients.</li>
+          <li>Implemented and maintained integrations between RMS.NET/POS.NET, external platforms, SAP Business One, DI API, and Service Layer.</li>
+          <li>Built payment device integrations with providers such as GetNet, Transbank, and BCIPagos.</li>
+          <li>Developed a Flutter mobile application to manage SAP B1 integration settings and report pending document synchronization between POS systems and SAP.</li>
+          <li>Created REST APIs to expose RMS/POS document information to external providers and integration partners.</li>
+        </ul>
+      </article>
+
+      <article class="experience">
+        <h3>Faros Asesores</h3>
+        <p class="meta">Full Stack Developer | 2023 - 2025</p>
+        <ul>
+          <li>Developed microservices, web applications, and mobile applications focused on operational workflows and system integration.</li>
+          <li>Built an RFID inventory management web application using Node.js, React, and MongoDB.</li>
+          <li>Adapted business and logistics processes including purchase orders, shipment notices, packing lists, and inventory counts.</li>
+          <li>Developed an ASN control dashboard for generation, tracking, and processing of logistics information.</li>
+        </ul>
+      </article>
+
+      <article class="experience">
+        <h3>Independent Professional</h3>
+        <p class="meta">Full Stack Developer | 2021 - Present</p>
+        <ul>
+          <li>Build independent projects focused on productivity, entertainment, and practical digital tools.</li>
+          <li>Developed a Python desktop interface for Linux screen brightness control.</li>
+          <li>Created Unity games and prototypes under GitHub version control.</li>
+          <li>Built an Owlbear Rodeo extension for dice rolling workflows and additional web, music player, and mobile application projects.</li>
+          <li>Continue expanding practical knowledge in cloud deployment, CI/CD, and AI-assisted software engineering.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <p><strong>Duoc UC</strong> | Programmer Analyst, 2019 - 2022</p>
+    </section>
+
+    <section>
+      <h2>Certifications and Training</h2>
+      <ul>
+        <li>Security Code Warrior - White Belt.</li>
+        <li>Security Code Warrior - Yellow Belt.</li>
+        <li>Internal AI training covering AI fundamentals, neural network basics, LLM concepts, GitHub Copilot best practices, AI-assisted development, AI agents, and Cursor AI workflows.</li>
+      </ul>
+    </section>
+  </body>
+</html>

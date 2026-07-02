@@ -42,6 +42,48 @@ main {
   min-height: 100vh;
 }
 
+.language-switch {
+  position: fixed;
+  top: 18px;
+  right: 20px;
+  z-index: 10;
+  display: inline-flex;
+  align-items: center;
+  overflow: hidden;
+  border: 1px solid rgb(255 255 255 / 24%);
+  border-radius: 6px;
+  background: rgb(16 24 32 / 76%);
+  box-shadow: 0 12px 32px rgb(0 0 0 / 20%);
+  color: #fff;
+  font-size: 0.78rem;
+  font-weight: 850;
+  backdrop-filter: blur(12px);
+}
+
+.language-switch span,
+.language-switch a {
+  min-width: 46px;
+  padding: 10px 12px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.language-switch span {
+  background: var(--teal);
+}
+
+.language-switch a {
+  color: rgb(255 255 255 / 86%);
+  transition:
+    background 180ms ease,
+    color 180ms ease;
+}
+
+.language-switch a:hover {
+  background: rgb(255 255 255 / 12%);
+  color: #fff;
+}
+
 .hero {
   position: relative;
   display: grid;
@@ -423,6 +465,11 @@ h1 {
 }
 
 @media (max-width: 560px) {
+  .language-switch {
+    top: 12px;
+    right: 14px;
+  }
+
   .container,
   .hero__content {
     width: min(100% - 28px, 1120px);
